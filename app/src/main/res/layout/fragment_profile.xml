@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_light"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Cyan header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_profile_header"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="30dp"
+            android:paddingBottom="36dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp">
+
+            <TextView
+                android:id="@+id/tvAvatar"
+                android:layout_width="78dp"
+                android:layout_height="78dp"
+                android:background="@drawable/circle_white"
+                android:gravity="center"
+                android:text="U"
+                android:textColor="@color/cyan_deep"
+                android:textSize="32sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textColor="#E6FFFFFF"
+                android:textSize="12.5sp"/>
+        </LinearLayout>
+
+        <!-- Account group -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp" android:layout_marginEnd="14dp"
+            android:layout_marginTop="-20dp"
+            android:background="@drawable/bg_card_white"
+            android:orientation="vertical">
+
+            <include layout="@layout/include_profile_row" android:id="@+id/rowEdit" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/border" android:layout_marginStart="14dp" android:layout_marginEnd="14dp"/>
+            <include layout="@layout/include_profile_row" android:id="@+id/rowPhone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- Preferences group -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp" android:layout_marginEnd="14dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_card_white"
+            android:orientation="vertical">
+
+            <include layout="@layout/include_profile_row" android:id="@+id/rowDark" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/border" android:layout_marginStart="14dp" android:layout_marginEnd="14dp"/>
+            <include layout="@layout/include_profile_row" android:id="@+id/rowNotif" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- About group -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp" android:layout_marginEnd="14dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_card_white"
+            android:orientation="vertical">
+
+            <include layout="@layout/include_profile_row" android:id="@+id/rowVersion" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/border" android:layout_marginStart="14dp" android:layout_marginEnd="14dp"/>
+            <include layout="@layout/include_profile_row" android:id="@+id/rowPrivacy" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/border" android:layout_marginStart="14dp" android:layout_marginEnd="14dp"/>
+            <include layout="@layout/include_profile_row" android:id="@+id/rowAbout" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- Logout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp" android:layout_marginEnd="14dp"
+            android:layout_marginTop="14dp" android:layout_marginBottom="20dp"
+            android:background="@drawable/bg_card_white"
+            android:orientation="vertical">
+
+            <include layout="@layout/include_profile_row" android:id="@+id/rowLogout" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

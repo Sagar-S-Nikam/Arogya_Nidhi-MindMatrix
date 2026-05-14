@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_card_white"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:padding="14dp">
+
+    <FrameLayout
+        android:id="@+id/iconBg"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:background="@drawable/circle_tint_cyan">
+
+        <ImageView
+            android:id="@+id/cardIcon"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_check_clipboard"
+            app:tint="@color/cyan_deep"
+            xmlns:app="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/cardTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Title"
+        android:textColor="@color/cyan_darker"
+        android:textSize="13.5sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cardSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="Subtitle"
+        android:textColor="@color/text_secondary"
+        android:textSize="11sp" />
+</LinearLayout>

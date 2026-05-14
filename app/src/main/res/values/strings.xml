@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Arogya-Nidhi</string>
+    <string name="app_tagline">Find Government Health Schemes Easily</string>
+
+    <!-- Onboarding -->
+    <string name="onb1_title">Check your eligibility</string>
+    <string name="onb1_desc">Discover which government health schemes your family qualifies for in just 2 minutes.</string>
+    <string name="onb2_title">Know required documents</string>
+    <string name="onb2_desc">Get the exact list of documents you need before visiting government offices.</string>
+    <string name="onb3_title">Save money on healthcare</string>
+    <string name="onb3_desc">Discover free treatments and avoid out-of-pocket payments for medical expenses.</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="get_started">Get Started</string>
+
+    <!-- Auth -->
+    <string name="welcome_back">Welcome Back</string>
+    <string name="sign_in_continue">Sign in to continue</string>
+    <string name="create_account">Create Account</string>
+    <string name="join_today">Join Arogya-Nidhi today</string>
+    <string name="full_name">Full Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="mobile_or_email">Mobile / Email</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="continue_guest">Continue as Guest</string>
+    <string name="have_account">Already have an account?</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="or">or</string>
+
+    <!-- Home -->
+    <string name="hello">Hello,</string>
+    <string name="find_free_treatment">Find Free Treatment</string>
+    <string name="home_hero_desc">Answer simple questions to discover which government health schemes you qualify for.</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="check_eligibility">Check Eligibility</string>
+    <string name="take_quick_quiz">Take quick quiz</string>
+    <string name="required_documents">Required Documents</string>
+    <string name="browse_all_docs">Browse all docs</string>
+    <string name="saved_results">Saved Results</string>
+    <string name="health_schemes">Health Schemes</string>
+    <string name="start_eligibility_check">Start Eligibility Check</string>
+
+    <!-- Bottom nav -->
+    <string name="nav_home">Home</string>
+    <string name="nav_schemes">Schemes</string>
+    <string name="nav_saved">Saved</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Quiz -->
+    <string name="question_n_of_m">Question %1$d of %2$d</string>
+    <string name="see_results">See Results</string>
+    <string name="previous">Previous</string>
+
+    <!-- Results -->
+    <string name="great_news">Great news!</string>
+    <string name="eligible_for_schemes">You may be eligible for %1$d scheme(s)</string>
+    <string name="no_matches">No exact matches</string>
+    <string name="visit_phc">Visit your nearest PHC for guidance</string>
+    <string name="why_qualify">💡 Why you qualify: %1$s</string>
+    <string name="view_documents">View required documents</string>
+    <string name="save_result">Save Result</string>
+    <string name="download">Download</string>
+    <string name="retake_quiz">Retake Quiz</string>
+
+    <!-- Docs -->
+    <string name="document_checklist">Document Checklist</string>
+    <string name="next_step">📍 Next step:</string>
+    <string name="next_step_desc">Take these documents (originals + photocopies) to your nearest empaneled hospital or PHC.</string>
+    <string name="upload">Upload</string>
+
+    <!-- Profile -->
+    <string name="edit_profile">Edit Profile</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="notifications">Notifications</string>
+    <string name="app_version">App Version</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="about_app">About App</string>
+    <string name="logout">Logout</string>
+
+    <!-- Empty / Errors -->
+    <string name="no_saved_results">No saved results yet.</string>
+    <string name="no_schemes_found">No schemes found</string>
+    <string name="fill_all_fields">Please fill all fields</string>
+    <string name="passwords_mismatch">Passwords do not match</string>
+    <string name="invalid_credentials">Invalid email or password</string>
+</resources>
