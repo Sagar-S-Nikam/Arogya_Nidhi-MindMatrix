@@ -7,6 +7,11 @@ A premium healthcare eligibility checker that helps rural families discover whic
 
 ## 📱 Features
 
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/dfbcd6fd-ebba-4d81-8153-72dd9c47fc63" />
+
+
+
+
 - **Splash screen** with logo pop animation
 - **3-slide onboarding** with ViewPager2 + dots indicator
 - **Signup & Login** via Firebase Authentication + "Continue as Guest"
