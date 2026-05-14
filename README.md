@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Arogya-Nidhi · Android App
 
 A premium healthcare eligibility checker that helps rural families discover which government health schemes they qualify for. Built natively in **Kotlin** with **MVVM architecture**.
@@ -256,3 +257,7 @@ The shipped code is production-ready for the core flow but a few things are inte
 Questions or stuck? Open an issue or contact the developer.
 
 **Built with ❤️ for rural healthcare access in India.**
+=======
+# Arogya_Nidhi-MindMatrix
+Arogya Nidhi is an Android app that helps users find eligible government health schemes based on income, occupation, and BPL status. It provides scheme details, required document checklists, and nearby empaneled hospitals through a simple and user-friendly interface.
+>>>>>>> 5048af4b68d5e3c9d4f2781eb5b09e26ed82e5cf
