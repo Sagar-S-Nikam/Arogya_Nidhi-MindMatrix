@@ -7,10 +7,36 @@ A premium healthcare eligibility checker that helps rural families discover whic
 
 ## 📱 Features
 
+##The APP Photo
+
 <img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/dfbcd6fd-ebba-4d81-8153-72dd9c47fc63" />
 
+##Create Account
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/1dada7ad-b5f3-49f7-9ff0-fa7301c59709" />
+
+##Login
+
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/ca1c5224-3405-4819-bfa4-301ee64019ec" />
+
+##Home Page
+
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/143cf14c-ad62-484a-801c-96cd4f15b048" />
+
+##Schemes page
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/65eb9a58-332b-42ec-9f5a-c90cf49ba0e5" />
 
 
+##Take Quiz
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/92f3f0e7-829e-4210-80ab-d1067f4e1f28" />
+
+
+##Document CheckList
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/66de6e4d-b5f7-47f1-a2b8-d8818a695655" />
+
+
+##Setting
+
+<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/a0f70dd2-7303-421b-bff8-68fec82afcfe" />
 
 - **Splash screen** with logo pop animation
 - **3-slide onboarding** with ViewPager2 + dots indicator
